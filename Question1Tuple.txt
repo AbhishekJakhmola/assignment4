@@ -1,0 +1,7 @@
+tup =('help',76,87.9,'yoyo',76)
+
+x=len(tup)
+
+print(tup)
+
+print("Length of tuple is {}".format(x))
