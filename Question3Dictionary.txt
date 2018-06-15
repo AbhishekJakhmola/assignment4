@@ -1,0 +1,21 @@
+list =['M','I','S','S','I','S','S','I','P','P','I']
+a=0
+b=0
+c=0
+d=0
+for i in list:
+    if i=='M':
+        a=a+1 
+    elif i=='I':
+        b=b+1 
+    elif i=='S':
+        c=c+1 
+    elif i=='P':
+        d=d+1 
+dict ={'M':0,'I':0,'S':0,'P':0}
+dict['M']= a 
+dict['I']= b 
+dict['S']= c 
+dict['P']= d 
+print(dict)
+  
