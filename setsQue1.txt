@@ -1,0 +1,27 @@
+a=set()
+
+b=set()
+
+n = int(input("Enter the number of inputs "))
+
+for i in range(n):
+
+    x = input("Enter for set1 ")
+
+    a.add(x)
+
+    y = input("Enter for set2 ")
+
+    b.add(y)
+
+print("Difference")
+
+print(a.difference(b))
+
+print("Intersection")
+
+print(a.intersection(b))
+
+print("Comparison")
+
+print(set(a) & set(b))
