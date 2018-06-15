@@ -1,0 +1,9 @@
+tup =(65,76,87.9,97,71,69)
+
+y=max(tup)
+
+z=min(tup)
+
+print("Largest element of tuple is {}".format(y))
+
+print("Smallest element of tupleis {}".format(z))
