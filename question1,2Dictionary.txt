@@ -1,0 +1,13 @@
+d ={}
+
+print("Enter Name and marks ")
+
+for i in range(10):        
+    
+         text = input().split()
+     
+    d[text[0]] = text[1]
+
+print(d)
+
+print(sorted(d.values()))
