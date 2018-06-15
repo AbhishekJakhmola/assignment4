@@ -1,0 +1,13 @@
+tup =(1,2,3,4,5)
+
+result = 1
+
+for x in tup:
+
+         result = result * x
+
+print("The tuple is")
+
+print(tup)
+
+print("the product is {}".format(result))
